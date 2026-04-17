@@ -1,1 +1,1 @@
-silence is golden
+tisina je zlato
