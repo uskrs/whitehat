@@ -18,7 +18,7 @@
 5 god modes (ultra super god users)
 
 ##### 11 undefined - ultra root - 1111 - MOZE SVE OSIM ONOGA STO JE POD GOD MODOM
-11 undefined (root, users)
+11 undefined (root, users) - 3, 4... root users and 8, 7... (sudoers)
 
 ## SUMMARY of 0000 and 1111
 
