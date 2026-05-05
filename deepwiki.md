@@ -14,6 +14,10 @@ https://usk.rs/ng1np/
 
 https://usk.rs/
 
+### REACT CDN NA GLAVNOM HOSTU
+
+https://usk.rs/lightfidelity-lifi.com/react.html
+
 ### GITHUB HOST - GLAVNI REPO HOST
 
 https://uskrs.github.io/index.uskrs.html
