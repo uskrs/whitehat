@@ -25,3 +25,37 @@ https://usk.rs/pixel/
 ### LIFI - PODACI PUTEM SVETLA
 
 https://usk.rs/lightfidelity-lifi.com/
+
+### PDF READER - PDF PREGLEDAC
+
+https://usk.rs/pdf/index.php
+
+### MATH - MATEMATIKA
+
+https://usk.rs/lightfidelity-lifi.com/matematika.html
+
+### BLOG - JEDNOSTAVAN FRONTEND BLOG
+
+https://usk.rs/lightfidelity-lifi.com/blog/
+
+### LOLITA :)
+
+https://usk.rs/lightfidelity-lifi.com/lolita/
+
+### WINDOWS XP SIMULATOR
+
+https://usk.rs/xp.html
+
+### BTC GHOST - DUH CRYPTO
+
+https://usk.rs/btc/
+
+### DINOV ZABAVNIK - DNEVNICI JEDNOG DINOSAURUSA
+
+https://usk.rs/dinovzabavnik32bita.pdf
+
+### PLAN B - LOGIKA PLANA ZA IZGRADNJU KOMPANIJE, OTVORENOG KODA, DOZVOLJENO BILO KAKVO KOPIRANJE ILI KORISCENJE
+
+https://usk.rs/Antistereotip-Plan-B.pdf
+
+
