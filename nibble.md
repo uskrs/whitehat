@@ -30,7 +30,7 @@
 ###### 0000 ne znaci nema struje, vec ima struje
 ###### 1111 ne naci nuzno da nema struje, ima je tamo gde 0000 dozvoli
 ###### ukoliko u pointeru stoji 1 i sve u high levelu ima struje, to je pod dozvolom 0000
-###### /etc je potpuno zasticen od menjanja dozvola i izvrsavanja sistemskog brisanja datoteka
+###### /etc je potpuno zasticen od menjanja dozvola i izvrsavanja sistemskog brisanja datoteka gde cuva 0000
 ###### 0000 kontrolise /inet.d procese i cuva ih od nulovanja sa strane root korisnika 1111
 
 
