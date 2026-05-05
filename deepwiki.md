@@ -6,6 +6,10 @@ https://deepwiki.com/antistereotip/ghost/
 ### ENGINE UP - NG1NP
 https://deepwiki.com/antistereotip/ng1np2.0/
 
+### NAJLUDJA STVAR
+
+https://deepwiki.com/search/sta-je-najludji-sajt-ili-stvar_9a3f4c43-fffa-4638-97a7-064e062bf03d?mode=deep
+
 ### SOURCE LINK - IZVORNI LINK - NG1NP
 
 https://usk.rs/ng1np/
