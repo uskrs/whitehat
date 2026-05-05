@@ -66,6 +66,10 @@ https://usk.rs/dinovzabavnik32bita.pdf
 
 https://usk.rs/Antistereotip-Plan-B.pdf
 
+### LIST LOGOTIPS - LOGOTIPI
+
+https://usk.rs/logo/index.php
+
 ### ASCII
 
 https://www.ascii-code.com/
