@@ -14,6 +14,8 @@
 #### 0 GOD MODES - 4 UNDEFINED
 1100, 1101, 1110, 1111
 
+## SUMMARY
+
 ##### 5 god modes - god master user - 0000
 5 god modes (ultra super god users)
 
