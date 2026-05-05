@@ -23,7 +23,6 @@ require $pages[$route];
 } else { require_once(ROOT_DIR .'nepostojecabiblioteka.php'); }
 ?>
 
-
 <?php
 #-----nepostojecaklasa.php----------#
 #---nema direktnog pristupa klasi---#
@@ -41,16 +40,15 @@ class ng1np {
 }
 ?>
 
-
 <?php
 #----nepostojecabiblioteka.php----#
 #---pozivanje klase---#
 $eng = new ng1np();
 #---varijable---#
 $eng->charset = 'UTF-8';
-$eng->keywords = '0000, 0110, 1001, 1111';
+$eng->keywords = '0000, 0010, 0001, 1000';
 $eng->author = 'admin';
-$eng->description = 'This is God mode. All about universe and galaxy';
+$eng->description = 'This is God mode. Much more above root and sudoers';
 $eng->title = 'God mode - ng1np';
 #----nizovi sa podacima---#
 $eng->content = array( 
@@ -104,6 +102,7 @@ $eng->sidebar = array(
 #---metoda render---#
 echo $eng->render('nepostojecitemplejt.tpl');
 ?>
+
 #------------nepostojecitemplejt.tpl-----------------#
 <section>
 <?php foreach ($this->content as $row) { ?>
@@ -125,5 +124,7 @@ echo $eng->render('nepostojecitemplejt.tpl');
         </div>
 <?php } ?>
 </aside>
+
+index.php?route=god - > ucitava se god mode templejt
 
 
