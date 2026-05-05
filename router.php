@@ -101,10 +101,29 @@ $eng->sidebar = array(
         "server3" => "user"
         )
 );
-?>
-
-
-
-
 #---metoda render---#
-echo $eng->render('up/god.tpl');
+echo $eng->render('nepostojecitemplejt.tpl');
+?>
+#------------nepostojecitemplejt.tpl-----------------#
+<section>
+<?php foreach ($this->content as $row) { ?>
+	<div>
+	<h1> Proces 1: <?php echo $row['proces1']; ?></h1>
+	<h2> Proces 2: <?php echo $row['proces2']; ?><h2>
+	<h3> Proces 3: <?php echo $row['proces3']; ?></h3>
+	<h4> Proces 4: <?php echo $row['proces4']; ?></h4><br /><b> &#8592;</b>
+	</div>		
+<?php } ?>
+</section>
+#------------sidebar-----------------#
+<aside>
+<?php foreach ($this->sidebar as $row) { ?>
+        <div>
+        <h1> Server 1: <?php echo $row['server1']; ?></h1>
+        <h2> Server 2: <?php echo $row['server2']; ?><h2>
+        <h3> Server 3: <a href="<?php echo '?route='.$row['server3']; ?>"><?php echo $row['server3']; ?></a></h3><br ><b> &#8592;</b>
+        </div>
+<?php } ?>
+</aside>
+
+
