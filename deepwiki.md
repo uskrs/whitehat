@@ -6,6 +6,10 @@ https://deepwiki.com/antistereotip/ghost/
 ### ENGINE UP - NG1NP
 https://deepwiki.com/antistereotip/ng1np2.0/
 
+### SOURCE LINK - IZVORNI LINK - NG1NP
+
+https://usk.rs/ng1np/
+
 ### MAIN HOST - GLAVNI HOST
 
 https://usk.rs/
@@ -54,8 +58,14 @@ https://usk.rs/btc/
 
 https://usk.rs/dinovzabavnik32bita.pdf
 
-### PLAN B - LOGIKA PLANA ZA IZGRADNJU KOMPANIJE, OTVORENOG KODA, DOZVOLJENO BILO KAKVO KOPIRANJE ILI KORISCENJE
+### PLAN B - LOGIKA PLANA ZA IZGRADNJU AGENCIJE
 
 https://usk.rs/Antistereotip-Plan-B.pdf
+
+### ASCII
+
+https://www.ascii-code.com/
+
+
 
 
