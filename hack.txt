@@ -17,12 +17,14 @@ Ukoliko je system na off -> backdoor odakle se izvrsavaju komande kao u terminal
 
 https://domen.tld/page.php?PHPSESSID=1234
 
-##### Regeneriši ID-ove sesija: Uvek pozovi ovu funkciju nakon što se korisnik prijavi kako bi se sprečilo fiksiranje.
+##### Regeneriši ID-ove sesija: Uvek pozovi ovu funkciju nakon što se korisnik prijavi kako 
+bi se sprečilo fiksiranje.
 
 session_start();
 session_regenerate_id(true); // Menja ID i briše staru datoteku sesije
 
-##### Podešavanja bezbednih kolačića: Podesite kolačiće sesije na HttpOnly (da biste sprečili XSS pristup) i Secure (da biste osigurali da putuju samo preko HTTPS-a).
+##### Podešavanja bezbednih kolačića: Podesite kolačiće sesije na HttpOnly (da biste sprečili 
+XSS pristup) i Secure (da biste osigurali da putuju samo preko HTTPS-a).
 
 session_start([
     'cookie_httponly' => true,
@@ -30,7 +32,8 @@ session_start([
     'cookie_samesite' => 'Strict',
 ]);
 
-##### Provere validacije: Čuvajte IP adresu korisnika ili korisničkog agenta u sesiji i proveravajte je pri svakom zahtevu.
+##### Provere validacije: Čuvajte IP adresu korisnika ili korisničkog agenta u sesiji i 
+proveravajte je pri svakom zahtevu.
 
 if ($_SERVER['HTTP_USER_AGENT'] !== $_SESSION['user_agent']) {
     session_destroy(); // Završi sesiju ako se otisak prsta pregledača promeni
@@ -48,15 +51,22 @@ $password = $_POST['password'];
 $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
 $result = mysqli_query($conn, $query);
 
-Napadač može zaobići autentifikaciju unosom ' OR '1'='1' -- kao korisničko ime. Ovo transformiše upit u: SELECT * FROM users WHERE username = '' OR '1'='1' --' AND password = '...' Pošto je '1'='1' uvek tačno i -- komentariše ostatak upita, napadač je prijavljen bez važeće lozinke.
+Napadač može zaobići autentifikaciju unosom ' OR '1'='1' -- kao korisničko ime. Ovo transformiše 
+upit u: SELECT * FROM users WHERE username = '' OR '1'='1' --' AND password = '...' 
+Pošto je '1'='1' uvek tačno i -- komentariše ostatak upita, napadač je prijavljen bez važeće lozinke.
 
 ##### Vrste SQL injekcije
 
---- Unutarpojasni (klasični) SQLi: Najčešći tip, gde napadač koristi isti komunikacioni kanal za pokretanje napada i prikupljanje rezultata (npr. napadi zasnovani na greškama ili UNION-u).
+--- Unutarpojasni (klasični) SQLi: Najčešći tip, gde napadač koristi isti komunikacioni 
+kanal za pokretanje napada i prikupljanje rezultata (npr. napadi zasnovani na greškama 
+ili UNION-u).
 
---- Inferencijalni (slepi) SQLi: Podaci se ne prenose nazad napadaču. Umesto toga, oni posmatraju vreme odziva servera (zasnovano na vremenu) ili promene u sadržaju stranice (zasnovano na bulovoj vrednosti) kako bi rekonstruisali bazu podataka.
+--- Inferencijalni (slepi) SQLi: Podaci se ne prenose nazad napadaču. Umesto toga, oni 
+posmatraju vreme odziva servera (zasnovano na vremenu) ili promene u sadržaju stranice 
+(zasnovano na bulovoj vrednosti) kako bi rekonstruisali bazu podataka.
 
---- Vanpojasni SQLi: Napadač pokreće bazu podataka da uputi spoljni mrežni zahtev (kao što su DNS ili HTTP) serveru koji kontroliše kako bi izdao podatke.
+--- Vanpojasni SQLi: Napadač pokreće bazu podataka da uputi spoljni mrežni zahtev (kao 
+što su DNS ili HTTP) serveru koji kontroliše kako bi izdao podatke.
 
 ------------------------------------------------------------------------------------------------------------------------
 
