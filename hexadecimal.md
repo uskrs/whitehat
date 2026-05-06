@@ -22,7 +22,6 @@
 ###### Fhex	=	15dec	=	17oct		- 1	1	1	1
 
 ### ipv6 hexa to binary
--- 2001:db8:3333:4444:cccc:dddd:eeee:ffff
--- 0010000000000001:110110111000:0011001100110011:0100010001000100:
-1100110011001100:1101110111011101:1110111011101110:1111111111111111
+###### 2001:db8:3333:4444:cccc:dddd:eeee:ffff
+###### Prema tabeli, promeni vrednosti i dobices binarni zapis
 
