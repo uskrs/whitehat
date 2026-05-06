@@ -15,6 +15,9 @@
 #### 0 GOD MODES - 4 UNDEFINED
 1100, 1101, 1110, 1111
 
+### root
+1111
+
 ## SUMMARY of number of god modes and undefined
 
 ##### 5 god modes - god master user - 0000 - MOZE NULOVATI SVE PA I ROOT KORISNIKA
