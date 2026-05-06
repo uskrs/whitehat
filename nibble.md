@@ -2,6 +2,10 @@
 
 ### MOD OF ALL MODES
 0000
+### ROOT
+1111
+
+## 16 kombinacija nibble-a
 
 #### 3 GOD MODES - 1 UNDEFINED
 0000, 0001, 0010, 0011, 
@@ -14,9 +18,6 @@
 
 #### 0 GOD MODES - 4 UNDEFINED
 1100, 1101, 1110, 1111
-
-### root
-1111
 
 ## SUMMARY of number of god modes and undefined
 
